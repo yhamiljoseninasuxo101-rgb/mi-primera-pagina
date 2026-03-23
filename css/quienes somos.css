@@ -1,0 +1,10 @@
+
+.header{
+  background: linear-gradient(90deg, #12161b, #8ca1a7);
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+.card-pro{
+  border-left: 5px solid rgb(47, 35, 14);
+}

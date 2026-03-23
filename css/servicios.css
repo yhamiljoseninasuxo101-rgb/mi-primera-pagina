@@ -1,0 +1,16 @@
+.servicio-card{
+  transition: 0.3s;
+}
+.servicio-card:hover{
+  transform: translateY(-10px);
+}
+
+.banner{
+  background: url('imagenes/banner2.jpg') center/cover;
+  height: 250px;
+  color: white;
+}
+.banner h1{
+  background: rgba(0,0,0,0.5);
+  padding: 10px 20px;
+}

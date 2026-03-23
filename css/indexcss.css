@@ -1,0 +1,67 @@
+
+
+body{
+background:#f5f5f5;
+}
+
+/* Slider altura */
+.carousel-item img{
+height:450px;
+object-fit:cover;
+}
+
+/* Tarjetas */
+.card{
+transition:0.3s;
+border:none;
+}
+
+.card:hover{
+transform: translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Footer */
+footer{
+background:#111;
+color:white;
+padding:20px 0;
+text-align:center;
+}
+
+
+
+body{padding-top:70px;}
+
+/* OLA FULL WIDTH */
+.wave-full{
+  width:100%;
+  background:#000000;
+  color:rgb(235, 235, 235);
+  text-align:center;
+  padding:40px 0 80px;
+  position:relative;
+}
+.wave-full svg{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+
+footer{
+  background:#000000;
+  color:#ccc;
+  padding:40px 0;
+}
+footer a{color:#ccc;text-decoration:none;}
+footer a:hover{color:white;}
+
+.img-hover{
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.img-hover:hover{
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
